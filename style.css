@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 113px;
+}
+
+.logo {
+    background: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 1px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.nav-add {
+    /* background-color: blue; */
+    height: 50px;
+    width: 88.64px;
+}
+
+.add-first {
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+.add-sec {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 5px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid{
+    margin-left: 7px;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 800px;
+    background-color: pink;
+    border-radius: 4px;
+}
+
+.search-select {
+    text-align: center;
+    background-color: #f3f3f3;
+    width: 50px;
+    border-radius: 4px 0 0 4px;
+    border: none;
+}
+
+.nav-search:hover {
+    border: 3.5px solid orange;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.serach-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-radius: 0 4px 4px 0;
+    color: #0f1111;
+}
+
+.span {
+    font-size: 0.7rem;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart {
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+.panel {
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.panel-ops p {
+    display: inline;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+.panel-ops {
+    width: 70%;
+}
+
+.panel-deals {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.panel-all {
+    width: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.hero-section {
+    height: 350px;
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    height: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.01rem;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.shop-section {
+    background-color: #e2e7e6;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0 15px;
+    margin-top: 15px;
+}
+
+.box a {
+    color: #007185;
+    text-decoration:  none;
+}
+
+.box-img {
+    height: 303.7px;
+    width: 90%;
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.box-content {
+    margin-left: 1.6rem;
+}
+.box2-img {
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+}
+.box3-img {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/dex/2023/Roar/October/D_CC_Roar_OfficeDepot_1023_1X_Furnitrure_v2._SY304_CB577544739_.jpg");
+    background-size: cover;
+}
+.box4-img {
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+}
+
+.box7-img {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2023/img/Consumer_Electronics/XCM_CUTTLE_1622892_3373436_379x304_1X_en_US._SY304_CB597161294_.jpg");
+    background-size: cover;
+}
+.box8-img {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/September/DashboardCards/Fuji_Dash_SmartWatch_1X._SY304_CB639922137_.jpg");
+    background-size: cover;
+}
+
+.box6-img {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/cc_359_laptop_us_v1._SY304_CB576754001_.jpg");
+    background-size: cover;
+}
+.box5-img {
+    background-image: url("https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v8._SY304_CB573698005_.jpg");
+    background-size: cover;
+}
+
+.foot-panel1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-size: 0.85rem;
+    margin-top: 15px;
+}
+
+.foot-panel2 {
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.foot-panel2 a {
+    color: #dddddd;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+    
+}
+
+.foot-panel2 p {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.fp-box2 {
+    display: flex;
+}
+
+ul {
+    margin-top: 40px;
+}
+
+.foot-panel3 {
+    height: 68px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+}
+
+.foot-logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 68px;
+    width: 130px;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footp4-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.foot-panel4 span {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.foot-panel4 p {
+    font-size: 0.8rem;
+    margin-left: 0;
+    margin-bottom: 5px;
+}
+.foot-panel4 a {
+    color:  #dddddd;
+    text-decoration: none;
+}
+
+.fp4-1 {
+    margin-top: 30px;
+}
+
+.fp4-1 a {
+    font-size: 0.7rem;
+}
+
+.footp4-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 75%;
+}
+
+.niki {
+    margin-left: 50px;
+}
+
+.niki p {
+    font-size: 0.8rem;
+}
+
+.niki a {
+    font-size: 0.7rem;
+}
+
+.foot-panel5 {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.foot-panel4 a:hover {
+    text-decoration: underline white;
+}
